@@ -1,0 +1,22 @@
+default_language_version:
+  python: python3.10
+repos:
+  - repo: local
+    hooks:
+      - id: black
+        stages: [commit]
+        name: black
+        description: 'Black is a formatter of Python code, we use it to have a standard formatting accross projects'
+        entry: black
+        language: system
+        types: [python]
+        files: app
+      - id: mypy
+        stages: [ commit ]
+        name: mypy
+        description: 'Mypy checks that static typing is correct in the codebase'
+        entry: mypy
+        require_serial: true
+        language: system
+        types: [ python ]
+        files: ^app

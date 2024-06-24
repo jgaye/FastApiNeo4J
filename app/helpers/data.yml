@@ -1,0 +1,342 @@
+---
+people:
+- firstname: John
+  lastname: Smith
+  nickname: Johnny
+  parent_of:
+    - Lucy Smith
+    - Bob Smith
+    - Neil Smith
+    - Clara Duvall
+  child_of: []
+
+- firstname: Lucy
+  lastname: Smith
+  nickname: Lulu
+  parent_of:
+    - Kevin Smith
+    - Sarah Smith
+  child_of:
+    - John Smith
+
+- firstname: Bob
+  lastname: Smith
+  nickname: Bobby
+  parent_of: []
+  child_of:
+    - John Smith
+
+- firstname: Kevin
+  lastname: Smith
+  nickname: Kev
+  parent_of: []
+  child_of:
+    - Lucy Smith
+
+- firstname: Anna
+  lastname: Smith
+  nickname: Annie
+  parent_of:
+    - John Smith
+    - Susan Smith
+  child_of: []
+
+- firstname: Susan
+  lastname: Smith
+  nickname: Susie
+  parent_of:
+    - Frank Smith
+    - Jane Smith
+  child_of:
+    - Anna Smith
+
+- firstname: Frank
+  lastname: Smith
+  nickname: Frankie
+  parent_of: []
+  child_of:
+    - Susan Smith
+
+- firstname: Jane
+  lastname: Smith
+  nickname: Janie
+  parent_of: []
+  child_of:
+    - Susan Smith
+
+- firstname: Neil
+  lastname: Smith
+  nickname: Nelly
+  parent_of: []
+  child_of:
+    - John Smith
+
+- firstname: Clara
+  lastname: Duvall
+  nickname: Clary
+  parent_of:
+    - Mary Smith
+    - Peter Smith
+  child_of:
+    - John Smith
+
+- firstname: Mary
+  lastname: Smith
+  nickname: M&M
+  parent_of: []
+  child_of:
+    - Clara Duvall
+
+- firstname: Peter
+  lastname: Smith
+  nickname: Pete
+  parent_of: []
+  child_of:
+    - Clara Duvall
+
+- firstname: Sarah
+  lastname: Smith
+  parent_of: []
+  child_of:
+    - Lucy Smith
+
+- firstname: Victor
+  lastname: Smith
+  parent_of:
+    - John Smith
+  child_of: []
+
+- firstname: Lisa
+  lastname: Smith
+  nickname: Lee
+  parent_of:
+    - Anna Smith
+  child_of: []
+
+- firstname: Tom
+  lastname: Smith
+  nickname: Tommy
+  parent_of:
+    - Lisa Smith
+    - Victor Smith
+  child_of: []
+
+- firstname: James
+  lastname: Brown
+  nickname: Jimbo
+  parent_of:
+    - Ella Brown
+    - Mike Brown
+    - Oscar Brown
+    - Olivia Brown
+  child_of: []
+
+- firstname: Ella
+  lastname: Brown
+  nickname: Ellie
+  parent_of:
+    - Sara Brown
+    - Ian Brown
+  child_of:
+    - James Brown
+
+- firstname: Mike
+  lastname: Brown
+  nickname: Mikey
+  parent_of: []
+  child_of:
+    - James Brown
+
+- firstname: Sara
+  lastname: Brown
+  nickname: Sar
+  parent_of: []
+  child_of:
+    - Ella Brown
+
+- firstname: Emily
+  lastname: Stevens
+  nickname: Emmy
+  parent_of:
+    - James
+    - Rachel
+  child_of: []
+
+- firstname: Rachel
+  lastname: Brown
+  nickname: Ray
+  parent_of:
+    - George Brown
+    - Ruby Brown
+  child_of:
+    - Emily Stevens
+
+- firstname: George
+  lastname: Brown
+  nickname: Georgie
+  parent_of: []
+  child_of:
+    - Rachel Brown
+
+- firstname: Ruby
+  lastname: Brown
+  nickname: Ruru
+  parent_of: []
+  child_of:
+    - Rachel Brown
+
+- firstname: Oscar
+  lastname: Brown
+  nickname: Ozzy
+  parent_of: []
+  child_of:
+    - James Brown
+
+- firstname: Olivia
+  lastname: Brown
+  nickname: Liv
+  parent_of:
+    - Paul Brown
+    - Eve Brown
+  child_of:
+    - James Brown
+
+- firstname: Paul
+  lastname: Brown
+  nickname: Pauly
+  parent_of: []
+  child_of:
+    - Olivia Brown
+
+- firstname: Eve
+  lastname: Brown
+  nickname: Evie
+  parent_of: []
+  child_of:
+    - Olivia Brown
+
+- firstname: Ian
+  lastname: Brown
+  nickname: E
+  parent_of: []
+  child_of:
+    - Ella Brown
+
+- firstname: Henry
+  lastname: Brown
+  nickname: Hank
+  parent_of:
+    - James Brown
+  child_of: []
+
+- firstname: Kate
+  lastname: Brown
+  nickname: Katy
+  parent_of:
+    - Emily Stevens
+  child_of: []
+
+- firstname: Richard
+  lastname: Taylor
+  nickname: Ricky
+  parent_of:
+    - Zoe Taylor
+    - Sam Taylor
+  child_of:
+    - Grace Taylor
+
+- firstname: Zoe
+  lastname: Taylor
+  nickname: Zozo
+  parent_of:
+    - Max Taylor
+  child_of:
+    - Richard Taylor
+
+- firstname: Sam
+  lastname: Taylor
+  nickname: Sammy
+  child_of:
+    - Richard Taylor
+
+- firstname: Max
+  lastname: Taylor
+  nickname: Maxi
+  child_of:
+    - Zoe Taylor
+
+- firstname: Grace
+  lastname: Taylor
+  nickname: Gracie
+  parent_of:
+    - Richard Taylor
+
+- firstname: David
+  lastname: White
+  nickname: Dave
+  parent_of:
+    - Mia White
+    - Jake White
+  child_of:
+    - Rebecca White
+
+- firstname: Mia
+  lastname: White
+  nickname: Mimi
+  parent_of:
+    - Luke White
+  child_of:
+    - David White
+
+- firstname: Jake
+  lastname: White
+  nickname: J
+  child_of:
+    - David White
+
+- firstname: Luke
+  lastname: White
+  nickname: Lucky
+  child_of:
+    - Mia White
+
+- firstname: Rebecca
+  lastname: White
+  nickname: Becky
+  parent_of:
+    - David White
+
+- firstname: Brian
+  lastname: Wilson
+  nickname: Bri
+  parent_of:
+    - Emma Wilson
+    - Liam Wilson
+  child_of:
+    - Jessica Wilson
+
+- firstname: Emma
+  lastname: Wilson
+  nickname: Emmy
+  parent_of:
+    - Sophie White
+  child_of:
+    - Brian Wilson
+
+- firstname: Liam
+  lastname: Wilson
+  nickname: Lee
+  child_of:
+    - Brian Wilson
+
+- firstname: Sophie
+  lastname: Wilson
+  nickname: Soph
+  child_of:
+    - Emma Wilson
+
+- firstname: Jessica
+  lastname: Wilson
+  nickname: Jess
+  parent_of:
+    - Brian Wilson
